@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(158, 141, 141);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.518);
+            border-radius:10px 0px;
+            
+        }
+        nav{
+            background-color: rgb(138, 138, 138);
+            padding: 3px;
+            box-shadow: 1px 1px 4px  black;
+            border-radius: 8px 0px;
+        }
+        nav>a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav>a:hover{
+            text-decoration: underline;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
+            border-radius: 10px 0px ;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+            text-indent: 5px;
+            text-align: justify;
+        }
+        article>h2{
+            text-align: center;
+            
+        }
+        article> aside{
+            background-color: rgb(141, 140, 140);
+            text-align: right;
+            border-radius: 4px 0px;
+
+        }
+        #assuntos{
+            background-color: black;
+            color: white;
+            padding: 2px;
+            margin: 5px;
+            text-align: center
+            ;
+            border-radius: 6px 0px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            margin: opx;
+            box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.742);
+            border-radius: 10px 0px;
+        }
+        footer>p{
+            margin: 0px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site de exemplo</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Notícias e Tecnologia</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam animi eveniet? Asperiores corrupti, qui tenetur dignissimos explicabo quae illo optio magni tempore labore totam deleniti vel officiis nesciunt aliquid?</p>
+                <aside>
+                    <p>Artigo escrito por Ivo Ryan</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ivo Script</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "UTF8";
+
+
+body { font-family: Arial, Helvetica, sans-serif;
+
+    background-image:linear-gradient(to right#8685ae,#413975);
+   font-size: 1em;
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:#99a72c ;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:#0b9354 ;
+}
+p { text-align: justify;
+
+}
