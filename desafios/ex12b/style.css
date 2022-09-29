@@ -48,19 +48,20 @@ a:hover{
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
     line-height:2em ;
     padding-left: 30px;
-    font-size: 3.5vw;
+    font-size: 3.0vw;
     font-family: var(---fonte3);
     font-weight: normal;
 }
 
 section.imagem>p {
-    background-color: rgba(0, 0, 0, 0.353);
+    background-color: rgba(0, 0, 0, 0.229);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 2px 0px black;
 }
 
 section.normal{
@@ -68,10 +69,25 @@ section.normal{
     color: black;
 }
 section.imagem{
-
+    padding-top: 10vh; 
+    padding-bottom: 10vh;
     background-color: rgb(53, 52, 52);
     color: white;
-    padding: 5px;
+    
+    box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.508);
+    background-attachment: fixed;
+}
+
+section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-size: cover;
+    background-image:url('imagens/background002.jpg') ;
+    
 }
 
 footer p{
